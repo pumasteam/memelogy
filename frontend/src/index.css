@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply m-4 bg-green-800 font-black text-white text-lg px-6 py-2 rounded-full;
+}
+
+.button:hover {
+  @apply m-4 bg-green-800 font-black text-white text-lg px-6 py-2 rounded-full;
+}
+
+.uploadcare--widget__button_type_open {
+  @apply m-6 bg-green-800 font-black text-white text-lg px-6 py-2 rounded-full cursor-pointer;
+}
+
+.uploadcare--widget__button_type_open:hover {
+  @apply m-6 bg-green-900 font-black text-white text-lg px-6 py-2 rounded-full cursor-pointer;
+}
